@@ -6,78 +6,95 @@
     <meta name="description" content="Yin's portfolio">
     <meta name="author" content="Yin Chang">
     <title>Portfolio</title>
+    <!-- Import Font Awesome icons -->
+    <script src="https://kit.fontawesome.com/eb065f67f3.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <section id="top">
+        <nav>
+            <h2>Navigation Bar</h2>
+            <table style="width: 100%;">
+                <tr>
+                    <td><a href="#contact_info">Contact Info</a></td>
+                    <td><a href="#education">Education</a></td>
+                    <td><a href="#employment">Employment</a></td>
+                    <td><a href="#additional_experience">Additional Experiences</a></td>
+                    <td><a href="#languages_technologies">Languages & Techologies</a></td>
+                </tr>
+            </table>
+        </nav>
     <header>
-        <h1>Hi, I'm Yin Chang.</h1>
-        <figure>
-            <img src="myPhoto.JPG" alt="myPhoto" style="width:200px">
-            <figcaption>Yin Chang's profile photo</figcaption>
-          </figure>
-        <ul>
-            <li><b>Make School</b> at Dominican University of California Class of <em>2022</em></li>
-            <li>Participant at <b>Google Computer Science Summer Institution</b>(<abbr>CSSI</abbr>) program of <em>2020</em></li>
-            <li><strong>Social Media Planner</strong> at OgilvyOne Taipei <em>2017-2018</em></li>
-            <li>Co-founder at <b>Imeginest</b> <em>2015-2016</em></li>
-        </ul>
+        <h1 style="color: deeppink;">Hi, I'm Yin!</h1>
+        <table style="width: 100%;">
+            <tr>
+                <td>
+                    <dl>
+                        <h3>About Me</h3>
+                        <dd><b>Make School</b> at Dominican University of California Class of <em>2022</em></dd>
+                        <dd>Participant at <b>Google </b><abbr title="Computer Science Summer Institution">CSSI</abbr> program of <em>2020</em></dd>
+                        <dd><strong>Social Media Planner</strong> at OgilvyOne Taipei <em>2017-2018</em></dd>
+                        <dd>Co-founder at <b>Imeginest</b> <em>2015-2016</em></dd>
+                    </dl>
+                </td>
+                <td style="text-align: right;"> 
+                <figure>
+                    <img src="myPhoto.JPG" alt="myPhoto" style="width:200px;" >
+                    <figcaption>Yin Chang</figcaption>
+                </figure>
+            </td>
+            </tr>
+        </table>
+       
+       
     </header>
     </section>
-    <nav>
-        <h2>Navigation Bar</h2>
-        <ul>
-            <li><a href="#contact_info">Contact Info</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#employment">Employment</a></li>
-            <li><a href="#additional_experience">Additional Experiences</a></li>
-            <li><a href="#languages_technologies">Languages & Techologies</a></li>
-        </ul>
-    </nav>
     <main>
         <section id="contact_info">
             <h2>Contact Info</h2>
-            <p>Email: <a href="mailto:yin.chang@students.makeschool.com?subject=Form the portfolio page">yin.chang@students.makeschool.com</a></p>
-            <p>Github: <a href="https://github.com/yinnyC" target="_blank">https://github.com/yinnyC</a></p>
-            <p><a href="https://medium.com/@yinnnn17" target="_blank">My Medium Stories</a></p>
+            <p><i class="fa fa-envelope" aria-hidden="true"></i>  <a href="mailto:yin.chang@students.makeschool.com?subject=Form the portfolio page"> yin.chang@students.makeschool.com</a></p>
+            <p><i class="fa fa-github" aria-hidden="true"></i>  <a href="https://github.com/yinnyC" target="_blank"> https://github.com/yinnyC</a></p>
+            <p><i class="fa fa-medium" aria-hidden="true"></i>  <a href="https://medium.com/@yinnnn17" target="_blank"> My Medium Stories</a></p>
+            <a href="#top" style="float: right;">Back to top</a>
         </section>
         <section id="education">
             <h2>Education</h2>
-            <table>
+            <table style="width: 100%;">
                 <tr>
                     <th>School</th>
                     <th>Coursework</th>
-                    <th>Time Interval</th>
                     <th>GPA</th>
+                    <th style="text-align: right;">Time Interval</th>
                 </tr>
                 <tr>
                     <td>Fu Jen Catholic University</td>
                     <td>Econamics, Entrepreneurship, CalculusI </td>
-                    <td>Fall 2013 - spring 2017</td>
                     <td></td>
+                    <td style="text-align: right;">Fall 2013 - spring 2017</td>
                 </tr>
                 <tr>
                     <td>De Anza College</td>
                     <td>Statistic, Python, C++, Linux, SQL </td>
-                    <td>Spring 2019 - spring 2020</td>
-                    <td>4.0</td>
+                    <td>4.0</td>               
+                    <td style="text-align: right;">Spring 2019 - spring 2020</td>
                 </tr>
                 <tr>
                     <td>Make School</td>
                     <td>Software Product Development</td>
-                    <td>Fall 2020</td>
                     <td></td>
+                    <td style="text-align: right;">Fall 2020</td>
                 </tr>
             </table>
+            <a href="#top" style="float: right;">Back to top</a>
         </section>
         <section id="employment">
             <h2>Employment</h2>
-            <table>
+            <table style="width: 100%;">
                 <tr>
                     <th>Company</th>
                     <th>Title</th>
                     <th>Description</th>
-                    <th>Time Interval</th>
+                    <th style="text-align: right;">Time Interval</th>
                 </tr>
                 <tr>
                     <td>OgilvyOne Taipei</td>
@@ -88,9 +105,10 @@
                             <li>Intensively trained by OgilvyOne on costumer relationship management, project management, and content strategy planning.</li>
                         </ul>
                     </td>
-                    <td>2017-2018</td>
+                    <td style="text-align: right;">2017-2018</td>
                 </tr>
             </table>
+            <a href="#top" style="float: right;">Back to top</a>
         </section>
         <section id="additional_experience">
             <h2>Additional Experiences</h2>
@@ -100,7 +118,7 @@
                     <th>Title</th>
                     <th>Location</th>
                     <th>Description</th>
-                    <th>Time Interval</th>
+                    <th style="text-align: right;">Time Interval</th>
                 </tr>
                 <tr>
                     <td>TEDxFJU</td>
@@ -112,7 +130,7 @@
                             <li>Grew over 5,000 fans within one year organically on Facebook.</li>
                         </ul>
                     </td>
-                    <td>2014-2015</td>
+                    <td style="text-align: right;">2014-2015</td>
                 </tr>
                 <tr>
                     <td>Google</td>
@@ -124,7 +142,7 @@
                             <li>Created the “Google Balloon Movement”. Giving away free balloons with the Google logo. Let the “Google Ignite” became a fashion and go viral immediately.</li>
                         </ul>
                     </td>
-                    <td>Spring 2015</td>
+                    <td style="text-align: right;">Spring 2015</td>
                 </tr>
                 <tr>
                     <td>Imaginest</td>
@@ -136,7 +154,7 @@
                             <li>Received more than 100 applications and Earned over NTD 300,000 within first six months and achieved the member growth goal within one month through Facebook fan page.</li>
                         </ul>
                     </td>
-                    <td>Aug 2015 - Jan 2016</td>
+                    <td style="text-align: right;">2015-2016</td>
                 </tr>
                 <tr>
                     <td>AUCC Campus Start-Up Competition</td>
@@ -148,7 +166,7 @@
                             <li>Got sponsorship from Technology company such as Google, Appier, VMFIVE valued over NTD 700,000.</li>
                         </ul>
                     </td>
-                    <td>Spring 2017</td>
+                    <td style="text-align: right;">Spring 2017</td>
                 </tr>
                 <tr>
                     <td>Google CSSI</td>
@@ -159,9 +177,10 @@
                             <li>Our project was put into goolge's branding video and website.</li>
                         </ul>
                     </td>
-                    <td>Summer 2020</td>
+                    <td style="text-align: right;">Summer 2020</td>
                 </tr>
             </table>
+            <a href="#top" style="float: right;">Back to top</a>
         </section>
         <section id="languages_technologies">
             <h2>Languages & Techologies</h2>
@@ -172,7 +191,7 @@
         </section>
     </main>
     <footer>
-        <a href="#top">Back to top</a>
+        <a href="#top" style="float: right;">Back to top</a>
     </footer>
 
 </body>
